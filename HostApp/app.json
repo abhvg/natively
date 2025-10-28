@@ -1,0 +1,16 @@
+{
+  "name": "HostApp",
+  "slug": "hostapp",
+  "scheme": "hostapp",
+  "version": "1.0.0",
+  "android": {
+    "package": "com.acme.hostapp"
+  },
+  "ios": {
+    "bundleIdentifier": "com.acme.hostapp"
+  },
+  "plugins": [
+    ["expo-router", { "root": "./src/screens" }],
+    "./plugins/expo-router-repack"
+  ]
+}

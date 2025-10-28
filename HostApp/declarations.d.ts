@@ -1,0 +1,1 @@
+declare module 'ChildApp/ChildApp' { const ChildApp: React.ComponentType<any>; export default ChildApp; }

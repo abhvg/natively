@@ -1,0 +1,16 @@
+{
+  "name": "ChildApp",
+  "slug": "child-app",
+  "scheme": "childapp",
+  "version": "1.0.0",
+  "android": {
+    "package": "com.acme.childapp"
+  },
+  "ios": {
+    "bundleIdentifier": "com.acme.childapp"
+  },
+  "plugins": [
+    ["expo-router", { "root": "./src/screens" }],
+    "./plugins/expo-router-repack"
+  ]
+}
