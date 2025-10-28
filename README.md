@@ -66,7 +66,7 @@ natively/
 │
 └── HostApp/
     ├── plugins/
-    │   └── expo-router-repack.js  # Identical custom plugin for the host
+    │   └── expo-router-repack.js  # Identical and custom plugin for the host
     ├── src/
     │   ├── screens/
     │   │   ├── _layout.tsx
